@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Microbit</title>
+    <link rel="stylesheet" type="text/css" href="css/csshake_1.css">
+    <link type="text/css" href="css/main.css" rel="stylesheet">
+    <link type="text/css" href="css/tem-watchTV.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <div class="nav">
+        <div class="menuicon"></div>
+        <div class="headd">温度计与温度传感器</div>
+    </div>
+    <div id="bacPic" class="bac-box">
+        <!-- <div class="backBtn shake shake-slow" id="backBtn">返回</div> -->
+        <div id="temTVone" class="temTVone">
+            <video src="./source/watchTV/temOne.mp4" id="vvdieoplay" type="video/mp4" width="820" height="570" controls autoplay loop playsinline>
+        </video>
+        </div>
+    </div>
+
+
+    <div class="font-bottom">
+        scnuwrh@163.com
+    </div>
+
+
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="js/html5shiv.js"></script>
+    <![endif]-->
+    <script src="js/tem.js"></script>
+    <script>
+        $("#backBtn").on("click", function() {
+            location.href = "tem.html";
+        })
+    </script>
+</body>
+
+</html>

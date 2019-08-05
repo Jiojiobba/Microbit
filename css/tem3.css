@@ -1,0 +1,496 @@
+    html,
+    body {
+        height: 100%;
+        overflow: hidden;
+        overflow-y: hidden;
+        -moz-overflow: hidden;
+        -webkit-overflow: hidden;
+        -o-overflow: hidden;
+        -moz-overflow-y: hidden;
+        -webkit-overflow-y: hidden;
+        -o-overflow-y: hidden;
+        margin: 0 !important;
+        padding: 0 !important;
+        /* width: 100%; */
+    }
+    
+    .source-image {
+        /* position: relative; */
+        top: 0 !important;
+        left: 0 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        /* float: left; */
+        filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src='../source/tem/tem-bac-big.svg', sizingMethod='scale');
+    }
+    
+    .person {
+        position: absolute;
+        left: 300px;
+        /* top: 60vh; */
+        z-index: 3;
+        bottom: 40px;
+    }
+    
+    .bac-box {
+        height: 100%;
+        overflow: hidden;
+        overflow-y: hidden;
+        -moz-overflow: hidden;
+        -webkit-overflow: hidden;
+        -o-overflow: hidden;
+        -moz-overflow-y: hidden;
+        -webkit-overflow-y: hidden;
+        -o-overflow-y: hidden;
+        margin: 0 !important;
+        padding: 0 !important;
+        top: 0;
+        white-space: nowrap;
+        z-index: -1;
+    }
+    
+    #bacPic {
+        background-image: url(../source/tem/tem-long-access-delete.svg);
+        background-position-x: 0;
+        background-position-y: 0;
+        -o-background-size: auto 100%;
+        background-size: auto 100%;
+        /* background-position: center center; */
+        /* background-size: cover;
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+        /* float: left; */
+        /* margin: 3px 10px; */
+        width: 15825px;
+        /* width: 6105px; */
+        height: 178vh;
+        display: block;
+    }
+    
+    .personSmall {
+        width: 200px;
+        height: 250px;
+        position: relative;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    
+    .person-norun {
+        background-image: url(../source/tem/no-run.svg);
+    }
+    
+    .person-rightrun {
+        /* top: -235px; */
+        background-image: url(../source/tem/right-run.svg);
+        display: none;
+    }
+    
+    .person-leftrun {
+        /* top: -480px; */
+        background-image: url(../source/tem/left-run.svg);
+        display: none;
+    }
+    
+    .shake {
+        display: block !important;
+    }
+    
+    .task123456 {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        /* width: 100%; */
+        /* background: palevioletred; */
+        left: 2vw;
+        /* bottom: 90vh; */
+    }
+    
+    .noneslient {
+        cursor: default;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        z-index: 2;
+        bottom: 15vh;
+        position: absolute;
+    }
+    
+    .yesclick {
+        cursor: pointer;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        z-index: 2;
+        bottom: 15vh;
+        position: absolute;
+    }
+    
+    .yesclicksmall {
+        cursor: pointer;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        z-index: 2;
+        /* bottom: 15vh; */
+        /* position: absolute; */
+        /* left: 2775px; */
+    }
+    /* 通关手册1小图标 */
+    
+    .handsmallone {
+        width: 657px;
+        left: 2775px;
+        height: 506px;
+        cursor: default;
+        z-index: 3;
+        bottom: 15vh;
+        position: absolute;
+    }
+    
+    .smallone {
+        background-image: url(../source/tem/small/4.png);
+        height: 60px;
+        width: 55px;
+        margin-left: 400px;
+        position: relative;
+        margin-bottom: 32px;
+        margin-top: 78px;
+    }
+    
+    .smalltwo {
+        background-image: url(../source/tem/small/1.png);
+        height: 55px;
+        width: 50px;
+        margin-left: 425px;
+        position: relative;
+        /* margin-bottom: 80px; */
+        z-index: 4;
+    }
+    
+    .smallthree {
+        background-image: url(../source/tem/small/2.png);
+        height: 55px;
+        width: 50px;
+        margin-left: 340px;
+        position: relative;
+        margin-top: -38px;
+    }
+    
+    .smallclick {
+        height: 25px;
+        width: 180px;
+        margin-left: 430px;
+        position: relative;
+        margin-top: 115px;
+    }
+    /* 通关手册2小图标 */
+    
+    .handsmalltwo {
+        width: 620px;
+        height: 510px;
+        left: 10150px;
+        cursor: default;
+        z-index: 3;
+        bottom: 15vh;
+        position: absolute;
+    }
+    
+    .smallone2 {
+        background-image: url(../source/tem/small/4.png);
+        height: 60px;
+        width: 55px;
+        margin-left: 365px;
+        position: relative;
+        margin-bottom: 32px;
+        margin-top: 80px;
+    }
+    
+    .smalltwo2 {
+        background-image: url(../source/tem/small/1.png);
+        height: 55px;
+        width: 50px;
+        margin-left: 400px;
+        position: relative;
+        /* margin-bottom: 80px; */
+        z-index: 4;
+    }
+    
+    .smallthree2 {
+        background-image: url(../source/tem/small/2.png);
+        height: 55px;
+        width: 50px;
+        margin-left: 315px;
+        position: relative;
+        margin-top: -38px;
+    }
+    
+    .smallfour2 {
+        background-image: url(../source/tem/small/4.png);
+        height: 60px;
+        width: 55px;
+        margin-left: 127px;
+        position: relative;
+        margin-top: -35px;
+    }
+    
+    .smallfive2 {
+        background-image: url(../source/tem/small/5.png);
+        height: 56px;
+        width: 89px;
+        margin-left: 178px;
+        position: relative;
+    }
+    
+    .smallsix2 {
+        background-image: url(../source/tem/small/6.png);
+        height: 60px;
+        width: 55px;
+        margin-left: 295px;
+        position: relative;
+        margin-top: -56px;
+    }
+    
+    .smallclick2 {
+        height: 21px;
+        width: 180px;
+        margin-left: 400px;
+        position: relative;
+        margin-top: 44px;
+    }
+    
+    .maketem {
+        /* top: 16vh; */
+        width: 1280px;
+        height: 450px;
+        /* background-color: pink; */
+        background-image: url(../source/tem/kou/maketem.svg);
+    }
+    
+    .doorone {
+        width: 880px;
+        left: 1550px;
+        height: 510px;
+        background-image: url(../source/tem/kou/doorone.svg);
+    }
+    
+    .handBook1 {
+        width: 657px;
+        left: 2775px;
+        height: 506px;
+        background-image: url(../source/tem/kou/handbook1.svg);
+    }
+    
+    .watchnotice-one {
+        width: 355px;
+        left: 4580px;
+        height: 450px;
+        background-image: url(../source/tem/kou/watchnotice-one.svg);
+    }
+    
+    .watchtv-one {
+        width: 395px;
+        left: 4950px;
+        height: 450px;
+        background-image: url(../source/tem/kou/watchtv-one.svg);
+    }
+    
+    .plantxrz {
+        width: 480px;
+        left: 5350px;
+        height: 200px;
+        background-image: url(../source/tem/kou/plantxrz.svg);
+    }
+    
+    .clicktotz {
+        width: 300px;
+        left: 5950px;
+        height: 350px;
+        background-image: url(../source/tem/kou/clicktotz.svg);
+    }
+    
+    .twocastques {
+        width: 650px;
+        left: 6180px;
+        height: 620px;
+        background-image: url(../source/tem/kou/twocastques.svg);
+    }
+    
+    .voletball {
+        width: 680px;
+        left: 6980px;
+        height: 450px;
+        background-image: url(../source/tem/kou/voletball.svg);
+    }
+    
+    .watchnotice-two {
+        width: 355px;
+        left: 7750px;
+        height: 450px;
+        background-image: url(../source/tem/kou/watchnotice-two.svg);
+    }
+    
+    .watchtv-two {
+        width: 395px;
+        left: 8150px;
+        height: 450px;
+        background-image: url(../source/tem/kou/watchtv-two.svg);
+    }
+    
+    .getonetem {
+        width: 385px;
+        left: 8650px;
+        height: 610px;
+        background-image: url(../source/tem/kou/getonetem.svg);
+    }
+    
+    .twodoor {
+        width: 900px;
+        left: 9150px;
+        height: 510px;
+        background-image: url(../source/tem/kou/twodoor.svg);
+    }
+    
+    .handBook2 {
+        width: 620px;
+        height: 480px;
+        left: 10150px;
+        background-image: url(../source/tem/kou/handbook2.svg);
+    }
+    
+    .watchnotice-three {
+        width: 355px;
+        left: 11050px;
+        height: 450px;
+        background-image: url(../source/tem/kou/watchnotice-three.svg);
+    }
+    
+    .watchtv-three {
+        width: 395px;
+        left: 11400px;
+        height: 450px;
+        background-image: url(../source/tem/kou/watchtv-three.svg);
+    }
+    
+    .umbrella2 {
+        width: 300px;
+        left: 11781px;
+        height: 248px;
+        background-image: url(../source/tem/kou/umbrella.svg);
+    }
+    
+    .moni {
+        width: 780px;
+        height: 590px;
+        left: 12261px;
+        background-image: url(../source/tem/kou/moni.svg);
+    }
+    
+    .moniExecise {
+        width: 308px;
+        height: 190px;
+        left: 12492px;
+        bottom: 18vh;
+        background-image: url(../source/tem/5.svg);
+    }
+    
+    .tree {
+        width: 682px;
+        height: 560px;
+        left: 13031px;
+        background-image: url(../source/tem/kou/tree.svg);
+    }
+    
+    .gotoask-three {
+        width: 700px;
+        left: 13701px;
+        height: 626px;
+        background-image: url(../source/tem/kou/gotoask-three.svg);
+    }
+    
+    .clicktotz2 {
+        width: 256px;
+        height: 325px;
+        left: 14301px;
+        background-image: url(../source/tem/6.svg);
+    }
+    
+    .end {
+        width: 806px;
+        height: 625px;
+        left: 14601px;
+        bottom: 12vh;
+        background-image: url(../source/tem/kou/end.svg);
+    }
+    /* 导航栏 */
+    
+    .menu {
+        width: 180px;
+        height: 500px;
+        z-index: 4;
+        /* background-color: yellowgreen; */
+        position: absolute;
+        top: 150px;
+    }
+    
+    .mmenu {
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        text-align: center;
+        color: white;
+        -o-background-size: cover;
+        background-size: cover;
+        overflow: hidden;
+    }
+    
+    .menutwo,
+    .menuthree {
+        height: 100px;
+        width: 225px;
+        margin: 0px 0px;
+        padding-top: 19px;
+        cursor: pointer;
+        background-image: url(../source/tem/menu-big.svg);
+        line-height: 28px;
+        font-weight: 600;
+    }
+    
+    .menuone,
+    .menufour {
+        height: 100px;
+        width: 185px;
+        margin: 0px 0px;
+        cursor: pointer;
+        background-image: url(../source/tem/menu-small.svg);
+        line-height: 85px;
+        font-weight: 600;
+    }
+    
+    .menuone:hover,
+    .menutwo:hover,
+    .menuthree:hover,
+    .menufour:hover {
+        color: #fff900;
+    }

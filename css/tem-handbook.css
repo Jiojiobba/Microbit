@@ -1,0 +1,110 @@
+ body {
+     overflow: hidden;
+     margin: 0;
+ }
+ /* .bacpic {
+     background-image: url(../source/tem/handbook-content-pic.svg);
+     background-position: center center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     width: 100vw;
+     height: 100vh;
+     -moz-background-size: cover;
+     -webkit-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+ } */
+ 
+ .font-bottom {
+     height: 45px;
+     width: 100%;
+     background-color: #212121;
+     position: fixed;
+     bottom: 44px;
+     z-index: 9999;
+     text-align: center;
+     font-family: YouYuan;
+     line-height: 45px;
+     color: white;
+     letter-spacing: 4px;
+     font-size: 15px;
+     cursor: default;
+ }
+ 
+ .nav {
+     height: 60px;
+     background-color: rgb(23, 24, 26);
+     color: white;
+     padding-left: 30px;
+     position: absolute;
+     display: flex;
+     flex-direction: row;
+     cursor: default;
+     width: 100%;
+ }
+ 
+ .font-bottom {
+     bottom: 0 !important;
+ }
+ 
+ .headd {
+     height: 60px;
+     background-color: rgb(23, 24, 26);
+     color: white;
+     padding-left: 30px;
+     font-size: 30px;
+     width: 450px;
+     line-height: 60px;
+     cursor: default;
+ }
+ 
+ .menuicon {
+     background-image: url(../source/watchTV/menuLogo.svg);
+     background-position: center center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     -moz-background-size: cover;
+     -webkit-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+     width: 5vw;
+     height: 5vh;
+     margin-top: 10px;
+ }
+ 
+ #bacPic {
+     height: 100vh;
+     width: 100%;
+     position: absolute;
+     margin-top: 60px;
+     overflow-y: scroll;
+     overflow-x: hidden;
+     /* background-color: bisque; */
+ }
+ 
+ .temTVone {
+     background-image: url(../source/tem/handbook-bac.png);
+     background-size: cover;
+     background-repeat: no-repeat;
+     width: 100vw;
+     height: 300vh;
+     background-position-x: center;
+     overflow-x: hidden;
+ }
+ 
+ .backBtn {
+     height: 60px;
+     width: 60px;
+     border-radius: 30px;
+     background-color: white;
+     color: black;
+     font-size: 20px;
+     font-weight: 600;
+     text-align: center;
+     line-height: 60px;
+     cursor: pointer;
+     z-index: 3;
+     top: 300px;
+     position: absolute;
+     margin-left: 18vw;
+ }

@@ -1,0 +1,150 @@
+.background-pic {
+    /* background-image: url(../source/index-pic.png);
+    background-position: center center;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden; */
+    background-image: url(../source/nn2.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 60vh;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+}
+
+body {
+    /* padding-bottom: 45px; */
+    min-width: 600px;
+}
+
+.font-bottom {
+    height: 45px;
+    width: 100%;
+    background-color: #212121;
+    position: fixed;
+    bottom: 60px;
+    z-index: 9999;
+    text-align: center;
+    font-family: YouYuan;
+    line-height: 45px;
+    color: white;
+    letter-spacing: 4px;
+    font-size: 15px;
+    cursor: none;
+}
+
+
+/* 播放视频 */
+
+#vvdieo {
+    position: absolute;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    /*宽度设置为100%，这样才能使隐藏背景层覆盖原页面*/
+    height: 100%;
+    filter: alpha(opacity=40);
+    /*设置透明度为60%*/
+    /*opacity:0.6;  !*非IE浏览器下设置透明度为60%*!*/
+    display: none;
+    z-Index: 999;
+}
+
+.vvdieo-out {
+    width: 900px;
+    height: 530px;
+    margin: 0 auto;
+    margin-top: 35px;
+    position: relative;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+#close {
+    content: url(../source/close.svg);
+    position: relative;
+    left: 850px;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.vvdieo-in {
+    width: 700px;
+    height: 450px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.do-you-know {
+    height: 200px;
+    width: 350px;
+    margin-left: 18vw;
+    margin-top: 2vw;
+    color: white;
+    position: absolute;
+}
+
+.title1 {
+    font-size: 30px;
+    cursor: default;
+}
+
+.title2 {
+    margin: 2px;
+    cursor: default;
+}
+
+.btn-right,
+.btn-left {
+    background-color: #03a9f4;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+    z-index: 99999;
+    width: 100px;
+    height: 35px;
+}
+
+.btn-left {
+    width: 80px;
+}
+
+.img-eight {
+    background-image: url(../source/fourIcon.svg);
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    height: 25px;
+    width: 250px;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+
+/* .layui-nav .layui-this:after,
+.layui-nav-bar,
+.layui-nav-tree .layui-nav-itemed:after {
+    background-color: rgb(255, 255, 255) !important;
+}
+
+.layui-nav .layui-this:after {
+    content: '';
+    top: auto;
+    bottom: 0;
+    width: 100%;
+} */

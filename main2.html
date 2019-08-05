@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Microbit</title>
+    <link rel="stylesheet" href="layui/css/layui.css" maximun-scale="1">
+    <link type="text/css" href="css/index.css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/main.css">
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body class="layui-layout-body">
+
+    <!-- 页面区域 -->
+    <div class="layui-layout layui-layout-admin">
+
+        <!--上侧菜单栏-->
+        <div style="background-color: rgb(23, 24, 26)" class="nav">
+            <div class="icon-box"><img src="./source/main-logo.svg" class="main-icon"></i>
+            </div>
+            <ul class="menu-nav">
+                <li class="menu-item" id="indexx"><a href="indexx.html" target="mainiframe">首页</a></li>
+
+                <li class="menu-item" id="taskList"><a href="gotomicro.html" target="mainiframe">走进micro:bit</a></li>
+
+                <li class="menu-item" id="tem"><a href="taskList.html" target="mainiframe">帮助麦克</a></li>
+
+                <li class="menu-item" id="getResource"><a href="study.html" target="mainiframe">学习建议</a></li>
+
+                <!-- <li class="menu-item" id="aboutweb"><a href="aboutweb.html" target="mainiframe">关于网站</a>
+                </li> -->
+                <li class="menu-item" id="aboutweb" onmouseover="showsub(this)" onmouseout="hidesub(this)"><a>关于网站</a>
+                    <ul>
+                        <li class="menu-itemm" id="aboutweb1"><a href="about-baseinfo.html" target="mainiframe">基本信息</a></li>
+                        <li class="menu-itemm" id="aboutweb2"><a href="about-teach.html" target="mainiframe">教学背景</a></li>
+                        <li class="menu-itemm" id="aboutweb3"><a href="about-design.html" target="mainiframe">设计理念</a></li>
+                        <li class="menu-itemm" id="aboutweb3"><a href="about-know.html" target="mainiframe">内容框架</a></li>
+
+                    </ul>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+
+
+    <!--下侧页面内容-->
+    <div class="" style="width: 100%;">
+
+        <iframe class="" scrolling="yes" style="width: 100%; height: 100vh; min-width: 600px;" name="mainiframe" src="./taskList.html" id="mainiframe" frameborder="0" scrolling="no">
+   
+        </iframe>
+
+    </div>
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+
+    <script type="text/javascript" src="layui/layui.js"></script>
+    <script type="text/javascript" src="layui/layui.all.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

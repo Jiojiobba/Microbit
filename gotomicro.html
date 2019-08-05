@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Microbit</title>
+    <link rel="stylesheet" type="text/css" href="css/csshake_1.css">
+    <!-- <link type="text/css" href="css/main.css" rel="stylesheet"> -->
+    <link type="text/css" href="css/gotomicro.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <!-- <div style="height: 100vh;width: 100%; overflow-y: scroll;overflow-x: hidden; ">
+       
+    </div> -->
+    <div style="position: relative;">
+        <div class="moreBtn shake shake-slow" id="moveBtn">了解更多</div>
+
+        <img src="./source/mocrobit/microbit-bac2.png" class="bacpic" id="bacpic">
+
+    </div>
+
+
+    <footer class="font-bottom">
+        scnuwrh@163.com
+    </footer>
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        $("#moveBtn").on("click", function() {
+            window.open('https://microbit.org/zh-CN/code/', '_blank')
+
+            // top.location.href = "https://microbit.org/zh-CN/code/";
+            // if (window != top) {
+            //     // top.location.href = location.href;
+            //     location.href = "https://microbit.org/zh-CN/code/";
+            // }
+        })
+    </script>
+</body>
+
+</html>

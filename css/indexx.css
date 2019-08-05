@@ -1,0 +1,149 @@
+body {
+    /* padding-bottom: 45px; */
+    min-width: 600px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.background-pic {
+    /* background-image: url(../source/index/index-bac.svg); */
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    /* height: 115vh; */
+    height: 90vh;
+    /* margin-top: -56px; */
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+}
+
+p {
+    cursor: default;
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    width: 450px;
+    /* background-color: #1f1818; */
+    position: absolute;
+    top: 115px;
+    left: 18vw;
+    height: 300px;
+    /* display: none; */
+    margin: 0 auto;
+}
+
+.content {
+    height: 65px;
+    text-align: center;
+}
+
+.gifBox {
+    height: 182px;
+    margin: 0 auto;
+    width: 320px;
+    background-color: #161212;
+    /* padding: 0px; */
+    border-radius: 10px;
+}
+
+.indexGif {
+    margin-left: 7px;
+    margin-top: 4px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.twoBtn {
+    margin: 0 auto;
+    height: 50px;
+    width: 320px;
+    /* background-color: beige; */
+    padding-top: 5px;
+    display: flex;
+    margin-top: 5px;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.btn {
+    height: 30px;
+    width: 130px;
+    text-align: center;
+    border-radius: 10px;
+    line-height: 30px;
+    background-color: white;
+    margin: 5px;
+}
+
+.btnOne:hover,
+.btnTwo:hover {
+    background-color: #161212;
+    color: white;
+}
+
+.font-bottom {
+    height: 45px;
+    width: 100%;
+    background-color: #212121;
+    position: fixed;
+    bottom: 60px;
+    z-index: 9999;
+    text-align: center;
+    font-family: YouYuan;
+    line-height: 45px;
+    color: white;
+    letter-spacing: 4px;
+    font-size: 15px;
+    cursor: none;
+}
+
+
+/* 播放视频 */
+
+#vvdieo {
+    position: absolute;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    /*宽度设置为100%，这样才能使隐藏背景层覆盖原页面*/
+    height: 100%;
+    filter: alpha(opacity=40);
+    /*设置透明度为60%*/
+    /*opacity:0.6;  !*非IE浏览器下设置透明度为60%*!*/
+    display: none;
+    z-Index: 999;
+}
+
+.vvdieo-out {
+    width: 900px;
+    height: 530px;
+    margin: 0 auto;
+    margin-top: 95px;
+    position: relative;
+    background: #161212;
+    border-radius: 10px;
+}
+
+#close {
+    /* content: url(../source/index/index-close.svg); */
+    position: relative;
+    left: 850px;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.vvdieo-in {
+    width: 700px;
+    height: 450px;
+    margin: 0 auto;
+    position: relative;
+}

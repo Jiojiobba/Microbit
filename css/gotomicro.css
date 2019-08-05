@@ -1,0 +1,60 @@
+body {
+    /* background: #84dbd7; */
+    margin: 0;
+    /* background-color: orange; */
+}
+
+.bacpic {
+    /* background-image: url(../source/mocrobit/gotomicro-bac.svg); */
+    /* background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 105vw;
+    height: 115vh;
+    position: relative;
+    overflow-y: auto;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow-y: scroll;
+    overflow-x: hidden; */
+    z-index: -5;
+    width: 100vw;
+}
+
+.bacpic::-webkit-scrollbar {
+    display: none
+}
+
+.font-bottom {
+    height: 44px;
+    width: 100%;
+    background-color: #212121;
+    position: fixed;
+    bottom: 38px;
+    z-index: 9999;
+    text-align: center;
+    font-family: YouYuan;
+    line-height: 45px;
+    color: white;
+    letter-spacing: 4px;
+    font-size: 15px;
+    cursor: none;
+}
+
+.moreBtn {
+    height: 50px;
+    width: 150px;
+    z-index: 5;
+    position: absolute;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    top: 95vh;
+    left: 25vw;
+    font-size: 25px;
+}

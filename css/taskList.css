@@ -1,0 +1,89 @@
+body {
+    /* background: #84dbd7; */
+    overflow: hidden;
+    margin: 0;
+}
+
+.bac {
+    background-image: url(../source/taskList/taskList-bac.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    /* margin-top: -56px; */
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.taskPlay {
+    width: 60vw;
+    height: 170px;
+    /* background-color: yellowgreen; */
+    margin-top: 37vh;
+    margin-left: 30vw;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+}
+
+.task {
+    width: 250px;
+    height: 230px;
+    position: relative;
+    /* background-color: teal; */
+    margin: 1vw;
+}
+
+.ooo {
+    height: 180px;
+    width: 180px;
+    cursor: default;
+    margin: 0 auto;
+}
+
+.tasksmall {
+    height: 128px;
+    width: 128px;
+    /* background-color: yellowgreen; */
+    /* margin-left: 30px; */
+    cursor: pointer;
+}
+
+.content {
+    text-align: center;
+    height: 80px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #483d3d;
+    cursor: default;
+    margin-top: 30px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.tasksmall {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.tem {
+    height: 180px;
+    width: 180px;
+    /* background-color: yellowgreen; */
+    /* margin-left: 30px; */
+    cursor: pointer;
+    background-image: url(../source/taskList/taskList-tem.svg);
+}

@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+.bacpic {
+    background-image: url(../source/aboutweb.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 300vh;
+    position: relative;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.bacpic1 {
+    height: 90vh;
+    width: 100vw;
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden; */
+}
+
+.bacpic::-webkit-scrollbar {
+    display: none
+}
+
+.font-bottom {
+    height: 45px;
+    width: 100%;
+    background-color: #212121;
+    position: fixed;
+    bottom: 52px;
+    z-index: 9999;
+    text-align: center;
+    font-family: YouYuan;
+    line-height: 45px;
+    color: white;
+    letter-spacing: 4px;
+    font-size: 15px;
+    cursor: none;
+}

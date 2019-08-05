@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Microbit</title>
+    <link rel="stylesheet" href="layui/css/layui.css" maximun-scale="1">
+    <link rel="stylesheet" type="text/css" href="css/csshake_1.css">
+    <link type="text/css" href="css/main.css" rel="stylesheet">
+    <link type="text/css" href="css/indexx.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+
+<body>
+
+    <!-- 播放视频 -->
+    <div id="vvdieo">
+        <div class="vvdieo-out">
+            <!--关闭叉叉 X -->
+            <!-- <i id="close"></i> -->
+            <img src="./source/index/index-close.svg" id="close" class="close">
+            <div class="vvdieo-in">
+                <video src="./source/introduction.mp4" id="vvdieoplay" type="video/mp4" width="700" height="450" controls autoplay loop playsinline>
+                                                <!-- <source src="cg.mp4" type="video/mp4" />     -->
+                                    </video>
+            </div>
+        </div>
+    </div>
+
+    <div class="">
+        <img src="./source/index/index-bac3.png" class="background-pic">
+        <div class="box" id="box">
+            <div class="content">
+                <p style="font-size: 25px;margin-bottom: 5px;color: white;">麦克遇到困难了</p>
+                <p>麦克想要去比特家做客，通过视频看一下他需要什么帮助吧</p>
+            </div>
+            <div class="gifBox" id="gifBox">
+                <img src="./source/index/daoru.gif" id="indexGif" width="308" class="indexGif">
+            </div>
+            <div class="twoBtn" id="twoBtn">
+                <div class="btn btnOne " id="watchTV">观看完整视频</div>
+                <div class="btn btnTwo " id="helpMike">点我帮助麦克</div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="font-bottom">
+        scnuwrh@163.com
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+
+    <script src="layui/layui.js"></script>
+    <script src="layui/layui.all.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
